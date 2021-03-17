@@ -16,8 +16,9 @@ body{
 .bg-image{
     background-image: url(../img/BG.jpg);
     background-repeat: no-repeat;
-    background-position-x: 100% 100%;
+    background-position: 100% 100%;
     background-size: cover;
+    min-height: 900px;
 }
 
 .navbar .nav-container {
@@ -39,15 +40,16 @@ body{
 }
 
 .left-content{
-    width: 400px;
+    width: 485px;
+    margin-top: 200px;
+    position: relative;
 }
 .header{
     display: flex;
-    position: relative;
 }
 
 .bring{
-    font-size: 41px;
+    font-size: 50px;
 }
 
 .create-custom {
@@ -57,14 +59,27 @@ body{
     line-height: 32px;
     letter-spacing: -0.6px;
     color: #696871;
+    margin-top: 30px;
 }
 
 .form1{
     background-color: #fff;
+    height: 60px;
+    width: 425px;
 }
 
 .oval{
-    /* width: 100px; */
     position: absolute;
-    left: 78%;
+    left: 930px;
+    top: 265px;
+}
+.oval1{
+    width: 330px;
+    position: absolute;
+    left: 452px;
+    top: -180px;
+}
+
+a{
+    text-decoration: none;
 }
