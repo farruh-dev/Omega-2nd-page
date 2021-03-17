@@ -66,6 +66,34 @@ body{
     background-color: #fff;
     height: 60px;
     width: 425px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    outline: none;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+}
+
+.input-email1{
+    outline: none;
+    border: none;
+    margin-left: 53px;
+}
+
+.email{
+    position: absolute;
+    left: 4%;
+}
+
+.get-start-1{
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    outline: none;
+    width: 135px;
+    height:50px;
+    font-size: 17px;
+    margin-left: auto;
 }
 
 .oval{
