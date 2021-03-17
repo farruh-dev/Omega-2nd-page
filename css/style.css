@@ -9,8 +9,15 @@ body{
 }
 
 .container{
-    width: 1140px;
+    width: 1080px;
     margin: 0 auto;
+}
+
+.bg-image{
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 100% 100%;
+    background-size: cover;
 }
 
 .navbar .nav-container {
@@ -29,4 +36,35 @@ body{
 .nav-item{
     padding: 5px;
     margin: 5px;
+}
+
+.left-content{
+    width: 400px;
+}
+.header{
+    display: flex;
+    position: relative;
+}
+
+.bring{
+    font-size: 41px;
+}
+
+.create-custom {
+    width: 428px;
+    height: 130px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #696871;
+}
+
+.form1{
+    background-color: #fff;
+}
+
+.oval{
+    /* width: 100px; */
+    position: absolute;
+    left: 78%;
 }
