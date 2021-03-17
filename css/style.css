@@ -41,7 +41,7 @@ body{
 
 .left-content{
     width: 485px;
-    margin-top: 200px;
+    margin-top: 240px;
     position: relative;
 }
 .header{
@@ -93,7 +93,19 @@ body{
     width: 135px;
     height:50px;
     font-size: 17px;
+    font-weight: 600;
     margin-left: auto;
+    margin-right: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.get-start-1:hover {
+    background-color: #fff;
+    color: #F04037;
+    border-color: #F04037;
+    width: 145px;
 }
 
 .oval{
