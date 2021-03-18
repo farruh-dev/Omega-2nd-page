@@ -155,6 +155,10 @@ a{
     display: flex;
 }
 
+.feature .image{
+    background-size: contain;
+}
+
 .build{
     width: 485px;
     margin-top: 200px;
@@ -194,3 +198,4 @@ a{
     border-color: #F04037;
     padding: 14px 40px;
 }
+
