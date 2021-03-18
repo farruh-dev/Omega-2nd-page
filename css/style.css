@@ -222,7 +222,7 @@ a{
 .left-content-2 {
     width: 485px;
     margin-top: 200px;
-    /* position: relative; */
+    position: relative;
 }
 
 .malla{
@@ -230,3 +230,9 @@ a{
     transform: translate(72%, -71.8%);
 }
 
+.oval2{
+    position: absolute;
+    top: 80%;
+    left: 390px;
+    z-index: 2;
+}
