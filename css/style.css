@@ -156,7 +156,16 @@ a{
 }
 
 .feature .image{
-    background-size: contain;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.feature-info{
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
 }
 
 .build{
@@ -197,5 +206,27 @@ a{
     color: #F04037;
     border-color: #F04037;
     padding: 14px 40px;
+}
+
+
+/* section 3 */
+
+.box2{
+    /* background-image: url(../img/IMG.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed; */
+    position: relative;
+}
+
+.left-content-2 {
+    width: 485px;
+    margin-top: 200px;
+    /* position: relative; */
+}
+
+.malla{
+    position: absolute;
+    transform: translate(72%, -71.8%);
 }
 
