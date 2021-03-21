@@ -356,16 +356,41 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .box5-title {
     font-weight: bold;
     font-size: 50px;
-    width: 380px;
+    width: 450px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .customers{
     width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.customer{
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 20px;
+}
+
+.customer-info{
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.customer-word{
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+
 }
