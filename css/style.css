@@ -350,6 +350,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 600px;
 }
 
 .box5 .container{
@@ -362,13 +363,25 @@ a{
 .box5-title {
     font-weight: bold;
     font-size: 50px;
-    width: 450px;
+    width: 100%;
+    text-align: center;
     margin: auto;
-    margin-top: 30px;
+    margin: 20px 0;
+}
+
+.box5-text{
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    width: 70%;
+    margin: auto;
+    height: 120px;
 }
 
 .customers{
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
 }
@@ -384,7 +397,7 @@ a{
 
 .customer-info{
     display: flex;
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .customer-word{
@@ -392,5 +405,5 @@ a{
     line-height: 39px;
     letter-spacing: -0.656526px;
     color: #19191B;
-
+    width: 400px;
 }
