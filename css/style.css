@@ -212,22 +212,19 @@ a{
 /* section 3 */
 
 .box2{
-    /* background-image: url(../img/IMG.png);
+    background-image: url(../img/IMG.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-attachment: fixed; */
-    position: relative;
+    background-position: 100% 0;
+    display: flex;
+    min-height: 745px;
+    align-items: center;
 }
 
 .left-content-2 {
     width: 485px;
-    margin-top: 200px;
     position: relative;
-}
-
-.malla{
-    position: absolute;
-    transform: translate(72%, -71.8%);
+    display: inline-block;
+    justify-content: center;
 }
 
 .oval2{
