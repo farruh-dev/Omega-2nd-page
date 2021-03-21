@@ -153,6 +153,13 @@ a{
     border-radius: 10px;
     padding: 20px;
     display: flex;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.feature:hover{
+   filter: drop-shadow(0 40px 40px rgb(40, 37, 71));
+   z-index: 2;
 }
 
 .feature .image{
@@ -273,7 +280,10 @@ a{
     margin: 20px 20px;
     padding: 10px;
     background-color: #fff;
+    border: 1px solid #EAE9F2;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 .box-list-item-egoist{
@@ -283,7 +293,15 @@ a{
     margin: 20px 20px;
     padding: 10px;
     background-color: #fff;
+    border: 1px solid #EAE9F2;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.box-list-item:hover,
+.box-list-item-egoist:hover{
+    filter: drop-shadow(0px 30px 30px rgba(65, 62, 101, 0.296766));
 }
 
 .list-text{
@@ -297,10 +315,9 @@ a{
 
 /* box4 */
 
-.box4{
+.box4 .container{
     display: flex;
     align-items: center;
-    width: 100vw;
     min-height: 800px;
 }
 
@@ -311,4 +328,17 @@ a{
     display: inline-block;
     justify-content: center;
     align-self: center;
+}
+
+.bgjon{
+    filter: drop-shadow(0px 52px 54px rgba(65, 62, 101, 0.296766));
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.oval3{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 105%;
 }
