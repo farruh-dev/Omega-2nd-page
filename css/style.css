@@ -233,3 +233,82 @@ a{
     left: 390px;
     z-index: 2;
 }
+
+/* box3 */
+
+.box3{
+    background: #F7F7FB;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.box3-title{
+    font-weight: bold;
+    font-size: 50px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.box3 .container{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.the-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-list-item{
+    display: flex;
+    width: 320px;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.box-list-item-egoist{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.list-text{
+    font-weight: bold;
+}
+
+.list-icon-img{
+    width: 50px;
+    margin: 5px 10px;
+}
+
+/* box4 */
+
+.box4{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    min-height: 800px;
+}
+
+.left-content-3 {
+    margin-top: 0;
+    width: 485px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+}
