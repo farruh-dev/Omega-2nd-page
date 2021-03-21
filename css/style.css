@@ -342,3 +342,30 @@ a{
     top: 50%;
     left: 105%;
 }
+
+/* customers */
+
+.box5{
+    background: #F7F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5-title {
+    font-weight: bold;
+    font-size: 50px;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.customers{
+    width: 80%;
+}
