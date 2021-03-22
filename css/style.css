@@ -37,6 +37,15 @@ body{
 .nav-item{
     padding: 5px;
     margin: 5px;
+    color: #19191B;
+}
+
+.nav-link{
+    color: #19191B;
+}
+
+.nav-link:hover{
+    color: rgb(245, 108, 58);
 }
 
 .left-content{
@@ -406,4 +415,17 @@ a{
     letter-spacing: -0.656526px;
     color: #19191B;
     width: 400px;
+}
+
+.mijoz{
+    margin: 10px;
+}
+
+.job{
+    color: #696871;
+    font-size: 15px;
+}
+
+.about-customer{
+    margin: 10px;
 }
