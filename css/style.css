@@ -433,3 +433,93 @@ a{
 .navca{
     margin: 50px  auto 100px;
 }
+
+/* box6 */
+
+.box6{
+    background-color: #413E65;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.build2 {
+    width: 485px;
+}
+
+.bring-3 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.create-custom-3 {
+    width: 420px;
+    height: 120px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(255, 255, 255, 0.702469);
+    margin-top: 20px;
+}
+
+.input-box {
+    width: 70%;
+    padding: 20px;
+    margin: 5px 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.main-get-start {
+    background-color: #F04037;
+    padding: 12px 18px;
+    text-decoration: none;
+    margin: 5px 0;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 70%;
+    height: 49px;
+    border: 2px solid #F04037;
+    font-size: 16px;
+    transition: 0.3s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-get-start:hover {
+    background-color: #fff;
+    color: #F04037;
+}
+
+.yellow{
+    position: relative;
+}
+
+.oval-last{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    z-index: 3;
+}
+
+
+/* footer */
+
+.footer .container{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+}
