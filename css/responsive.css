@@ -540,8 +540,20 @@
         display: none;
     }
 
-    .bring{
+    .bring,
+    .bring-3{
         font-size: 42px;
     }
 
+    .box5-title {
+        font-size: 45px;
+    }
+
+    .box5-text{
+        width: 100%;
+    }
+
+    #box6{
+        min-height: 600px;
+    }
 }
