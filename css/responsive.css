@@ -488,3 +488,19 @@
         margin-bottom: 80px;
     }
 }
+
+
+@media (max-width: 600px) {
+    .container,
+    .footer .container{
+        width: 500px;
+    }
+
+    .nav-container {
+        width: 450px;
+    }
+
+    .bring{
+        font-size: 46px;
+    }
+}
