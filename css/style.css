@@ -103,7 +103,8 @@ body{
     left: 4%;
 }
 
-.get-start-1{
+.get-start-1,
+.get-start-7{
     background: #F04037;
     border: 1px solid #C31A12;
     border-radius: 5px;
@@ -117,6 +118,14 @@ body{
     color: #fff;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+.get-start-7{
+    margin: 20px auto;
+    width: 180px;
+    height:85px;
+    font-size: 22px;
+    margin-bottom: 50px;
 }
 
 .get-start-1:hover {
@@ -646,5 +655,15 @@ a{
 
 .link-box:hover{
     background-color: #F04037;
+}
+
+/* dropdown */
+
+.menu{
+    display: none;
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    font-size: 23px;
 }
 

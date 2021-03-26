@@ -19,7 +19,7 @@
     }
     .left-content{
         width: 440px;
-        margin-top: 180px;
+        margin-top: 220px;
     }
 
    .bring {
@@ -269,7 +269,7 @@
 
     .bg-image {
         background-image: none;
-        background-color: aliceblue;
+        background-color: #D4DDE2;
     }
 
     .left-content{
@@ -388,6 +388,7 @@
 
     .get-start-2 {
         padding: 25px 55px;
+        font-size: 24px;
     }
     .get-start-2:hover {
         padding: 25px 55px;
@@ -498,9 +499,49 @@
 
     .nav-container {
         width: 450px;
+        padding: 20px 0;
     }
 
     .bring{
         font-size: 46px;
     }
+
+    .nav-list{
+        display: none;
+    }
+
+    .menu{
+        display: inline-block;
+    }
+
+    .main-logo{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 500px){
+    .container{
+        width: 400px;
+    }
+    
+    .footer .container{
+        width: 400px;
+    }
+
+    .build {
+        width: 100%;
+    }
+
+    .for-height{
+        height: 200px;
+    }
+
+    .get-start-1{
+        display: none;
+    }
+
+    .bring{
+        font-size: 42px;
+    }
+
 }
