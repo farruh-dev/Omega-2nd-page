@@ -11,20 +11,20 @@ body{
 }
 
 .container{
-    width: 1080px;
+    width: 1140px;
     margin: 0 auto;
 }
 
 .bg-image{
     background-image: url(../img/BG.jpg);
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: center center;
     background-size: cover;
     min-height: 830px;
 }
 
-.navbar .nav-container {
-    width: 1400px;
+.nav-container {
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -54,10 +54,13 @@ body{
     width: 485px;
     margin-top: 240px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
     display: flex;
+    width: 100%;
 }
 
 .bring{
@@ -125,8 +128,8 @@ body{
 
 .oval{
     position: absolute;
-    left: 930px;
-    top: 265px;
+    left: 190%;
+    top: 60%;
 }
 .oval1{
     width: 330px;
@@ -232,7 +235,7 @@ a{
 .box2{
     background-image: url(../img/IMG.png);
     background-repeat: no-repeat;
-    background-position: 100% 0;
+    background-position: right 0;
     display: flex;
     min-height: 745px;
     align-items: center;
@@ -248,7 +251,7 @@ a{
 .oval2{
     position: absolute;
     top: 80%;
-    left: 390px;
+    left: 90%;
     z-index: 2;
 }
 
@@ -391,7 +394,7 @@ a{
 }
 
 .customers{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -415,7 +418,8 @@ a{
     line-height: 39px;
     letter-spacing: -0.656526px;
     color: #19191B;
-    width: 400px;
+    width: 100%;
+    text-align: justify;
 }
 
 .mijoz{
@@ -429,6 +433,8 @@ a{
 
 .about-customer{
     margin: 10px;
+    width: 55px;
+    object-fit: cover;
 }
 
 .navca{
@@ -453,6 +459,7 @@ a{
 
 .build2 {
     width: 485px;
+
 }
 
 .bring-3 {
@@ -522,6 +529,7 @@ a{
 
 .sign-up-inputs-2{
     position: relative;
+    width: 100%;
 }
 .email-2{
     position: absolute;
@@ -615,7 +623,6 @@ a{
 }
 
 .sc-media-box{
-    width: 150px;
     height: 20px;
     margin-left: 30px;
     display: flex;
