@@ -540,6 +540,10 @@
         display: none;
     }
 
+    .get-start-7{
+        display: block;
+    }
+
     .bring,
     .bring-3{
         font-size: 42px;

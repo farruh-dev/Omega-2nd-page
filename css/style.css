@@ -126,6 +126,7 @@ body{
     height:85px;
     font-size: 22px;
     margin-bottom: 50px;
+    display: none;
 }
 
 .get-start-1:hover {
