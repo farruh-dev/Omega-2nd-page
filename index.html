@@ -12,7 +12,7 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <title>Document</title>
+    <title>Omega</title>
 </head>
 <body>
     <div class="bg-image">
@@ -186,7 +186,11 @@
                     </div>
                 </div>
             </div>
-            <img src="./img/Nav.png" alt="nav" class="navca">
+            <div class="navca">
+                <button class="pagination"></button>
+                <button class="pagination"></button>
+                <button class="pagination"></button>
+            </div>
         </div>
     </section>
 
@@ -209,7 +213,7 @@
         </div>
     </section>
 
-    <section class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="contact">
                 <div class="footer-start">
@@ -279,6 +283,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+
+    <script>
+        const pags = document.querySelectorAll(".pagination");
+
+        pags.forEach(pag => {
+            pag.addEventListener("click", event => {
+                pags.forEach(btn => {
+                    btn.classList.remove("pagination-active")
+                })
+
+                pag.classList.add("pagination-active")
+            })
+        })
+    </script>
 </body>
 </html>

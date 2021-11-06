@@ -448,6 +448,22 @@ a{
     margin: 50px  auto 100px;
 }
 
+.navca .pagination{
+    width: 20px;
+    height: 10px;
+    margin: 0 2px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #d5d8e0;
+    cursor: pointer;
+}
+
+.pagination-active{
+    width: 36px !important;
+    background-color: #5454D4 !important;
+}
+
 /* box6 */
 
 #box6{
